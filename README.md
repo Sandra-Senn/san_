@@ -124,104 +124,27 @@ Die Analyse erfolgt in drei aufeinander aufbauenden Notebooks:
 
 ## Ausblick
 
-### Kurzfristige Erweiterungen
+## Ausblick
 
-1. **Erweiterte Visualisierungen**
-   - Interaktive Netzwerkvisualisierungen mit Plotly oder D3.js
-   - Animierte Darstellung des Studienverlaufs
-   - Semester-basierte Heatmaps der Modulbelegung
+Die vorliegende Analyse hat die Grundstruktur des Curriculums mittels Netzwerkanalyse untersucht. Zahlreiche weiterführende Ansätze wären möglich gewesen, um ein noch umfassenderes Bild zu erhalten:
 
-2. **Temporale Analyse vertiefen**
-   - Vollständige Semester-Informationen für alle Module
-   - Analyse optimaler Belegungsreihenfolgen
-   - Simulation verschiedener Studienverläufe
+**Erweiterte Visualisierungen**
+Interaktive Netzwerkdarstellungen mit Plotly oder D3.js hätten eine explorative Analyse ermöglicht, bei der Nutzer Module anklicken, filtern und verschiedene Perspektiven einnehmen können. Animierte Visualisierungen des Studienverlaufs über Semester hinweg würden die zeitliche Dimension besser erfassen. Heatmaps der Modulbelegung mit flexiblen Filteroptionen nach Semestern, Themenbereichen oder Schwierigkeitsgraden hätten zusätzliche Einsichten ermöglicht.
 
-3. **Robustheitsanalyse erweitern**
-   - Simulation von Modulausfällen
-   - Identifikation alternativer Studienpfade
-   - Empfehlungssystem für flexible Studienplanung
+**Temporale Analyse**
+Die Integration vollständiger Semesterinformationen für alle Module hätte eine präzisere Analyse optimaler Belegungsreihenfolgen ermöglicht. Algorithmen zur Optimierung von Studienverläufen unter Berücksichtigung von Voraussetzungen und Kapazitäten wären wertvoll gewesen. Die Simulation verschiedener Studienpfade hätte gezeigt, welche Wahlentscheidungen zu längeren oder kürzeren Studienzeiten führen.
 
-### Mittelfristige Entwicklungen
+**Vergleichende Studien**
+Ein systematischer Vergleich mit Curricula anderer Hochschulen hätte Stärken und Schwächen des untersuchten Studiengangs aufgezeigt. Benchmarking gegen identifizierte Best Practices in der Curriculum-Gestaltung hätte konkrete Verbesserungsvorschläge generieren können. Die Mustererkennung in erfolgreichen Curriculumstrukturen hätte allgemeine Designprinzipien offenbart.
 
-1. **Vergleichende Analyse**
-   - Vergleich mit anderen Studiengängen
-   - Benchmarking gegen Best Practices
-   - Identifikation von Mustern in erfolgreichen Curricula
+**Integration realer Studiendaten**
+Die Analyse anonymisierter Studienverläufe hätte den Abgleich zwischen geplanter und tatsächlicher Modulbelegung ermöglicht. Die empirische Identifikation praktischer Bottlenecks würde zeigen, wo die größten Herausforderungen im realen Studienbetrieb liegen. Die Analyse von Erfolgsquoten in Abhängigkeit von der Netzwerkposition einzelner Module hätte deren tatsächliche Schwierigkeit offenbart.
 
-2. **Prädiktive Modellierung**
-   - Vorhersage von Studienverzögerungen basierend auf Modulstruktur
-   - Identifikation von Risikofaktoren für Studienabbrüche
-   - Empfehlungssystem für individuelle Studienplanung
+**Methodische Vertiefung**
+Der systematische Vergleich verschiedener Community-Detection-Algorithmen (Louvain, Infomap, Leiden, Label Propagation) hätte die Robustheit der identifizierten Modulgruppen validiert. Die Analyse hierarchischer Community-Strukturen über mehrere Ebenen würde feinere thematische Untergliederungen offenbaren. Die Detektion überlappender Communities wäre besonders für interdisziplinäre Module relevant gewesen.
 
-3. **Integration von Studentendaten**
-   - Analyse tatsächlicher Studienverläufe
-   - Vergleich geplanter vs. tatsächlicher Belegungen
-   - Identifikation von Bottlenecks in der Praxis
-
-### Langfristige Vision
-
-1. **Dynamische Curriculum-Optimierung**
-   - Automatische Vorschläge für Curriculum-Verbesserungen
-   - Simulation von Änderungen vor Implementierung
-   - Kontinuierliche Anpassung basierend auf Studienerfolg
-
-2. **Interaktive Planungstools**
-   - Web-basiertes Tool für Studienplanung
-   - Personalisierte Empfehlungen für Studenten
-   - Integration in bestehende Studienverwaltungssysteme
-
-3. **Multi-Level-Analyse**
-   - Analyse auf verschiedenen Ebenen (Module, Kurse, Lerneinheiten)
-   - Integration von Lernzielen und Kompetenzen
-   - Verbindung mit Learning Analytics
-
-4. **Erweiterte Netzwerkanalyse**
-   - Gewichtete Netzwerke (z.B. basierend auf Schwierigkeit)
-   - Multipartite Netzwerke (Module, Dozenten, Räume, Zeiten)
-   - Dynamische Netzwerke (Änderungen über Zeit)
-
-5. **Machine Learning Integration**
-   - Clustering von ähnlichen Modulen
-   - Empfehlungssysteme für Wahlmodule
-   - Anomalieerkennung in Studienverläufen
-
-### Methodische Erweiterungen
-
-1. **Erweiterte Community Detection**
-   - Vergleich verschiedener Algorithmen (Infomap, Leiden)
-   - Hierarchische Community-Strukturen
-   - Overlapping Communities
-
-2. **Zeitliche Netzwerkanalyse**
-   - Analyse von Curriculum-Änderungen über Zeit
-   - Evolutionäre Netzwerkanalyse
-   - Trend-Erkennung in Studienstrukturen
-
-3. **Multiplex-Netzwerke**
-   - Verschiedene Beziehungstypen (Voraussetzungen, Empfehlungen, Inkompatibilitäten)
-   - Analyse von Interdependenzen zwischen verschiedenen Netzwerkebenen
-
-### Anwendungsbereiche
-
-1. **Studienberatung**
-   - Automatisierte Studienplanungsempfehlungen
-   - Früherkennung von Problemen
-   - Personalisierte Beratung basierend auf Netzwerkanalyse
-
-2. **Curriculum-Design**
-   - Evidenz-basierte Curriculum-Entwicklung
-   - Optimierung von Modulstrukturen
-   - Evaluation von Curriculum-Änderungen
-
-3. **Ressourcenplanung**
-   - Optimale Allokation von Lehrressourcen
-   - Kapazitätsplanung basierend auf kritischen Modulen
-   - Prüfungsplanung unter Berücksichtigung von Abhängigkeiten
-
-4. **Qualitätssicherung**
-   - Monitoring von Studienverläufen
-   - Identifikation von Problemen im Curriculum
-   - Kontinuierliche Verbesserung basierend auf Daten
+**Multiplex-Netzwerkanalyse**
+Die Modellierung verschiedener Beziehungstypen (Voraussetzungen, Empfehlungen, zeitliche Inkompatibilitäten) in einem multiplen Netzwerk hätte die Komplexität des Curriculums besser abgebildet. Die schichtübergreifende Analyse von Interdependenzen würde zeigen, wie verschiedene Arten von Abhängigkeiten zusammenwirken. Die Identifikation kritischer Layer im Gesamtnetzwerk könnte Prioritäten für Optimierungsmaßnahmen setzen.
 
 
 ## Autoren
