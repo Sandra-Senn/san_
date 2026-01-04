@@ -1,118 +1,4786 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d5" for="edge" attr.name="Label" attr.type="string" />
-  <key id="d4" for="node" attr.name="Name" attr.type="string" />
-  <key id="d3" for="node" attr.name="Gruppe" attr.type="string" />
-  <key id="d2" for="node" attr.name="Name" attr.type="double" />
-  <key id="d1" for="node" attr.name="Semester" attr.type="double" />
-  <key id="d0" for="node" attr.name="Gruppe" attr.type="double" />
+  <key id="d4" for="edge" attr.name="Label" attr.type="string" />
+  <key id="d3" for="edge" attr.name="Type" attr.type="string" />
+  <key id="d2" for="node" attr.name="Name" attr.type="string" />
+  <key id="d1" for="node" attr.name="Semester" attr.type="string" />
+  <key id="d0" for="node" attr.name="Gruppe" attr.type="string" />
   <graph edgedefault="directed">
-    <node id="bb">
-      <data key="d0">nan</data>
-      <data key="d1">nan</data>
-      <data key="d2">nan</data>
-    </node>
-    <node id="wch">
-      <data key="d3">Grundlagen:
-Naturwissenschaften</data>
-      <data key="d1">1.0</data>
-      <data key="d4">Workshop Chemie</data>
-    </node>
     <node id="pro1M">
-      <data key="d3">Projekte: Maschinenbau</data>
-      <data key="d1">nan</data>
-      <data key="d4">Projekt 1 Maschinenbau</data>
+      <data key="d0">Projekte: Maschinenbau</data>
+      <data key="d1">1</data>
+      <data key="d2">Projekt 1 Maschinenbau</data>
     </node>
     <node id="pro2M">
-      <data key="d3">Projekte: Maschinenbau</data>
-      <data key="d1">nan</data>
-      <data key="d4">Projekt 2 Maschinenbau</data>
+      <data key="d0">Projekte: Maschinenbau</data>
+      <data key="d1">2</data>
+      <data key="d2">Projekt 2 Maschinenbau</data>
     </node>
     <node id="pro3M">
-      <data key="d3">Projekte: Maschinenbau</data>
-      <data key="d1">nan</data>
-      <data key="d4">Projekt 3 Maschinenbau</data>
+      <data key="d0">Projekte: Maschinenbau</data>
+      <data key="d1">3</data>
+      <data key="d2">Projekt 3 Maschinenbau</data>
     </node>
     <node id="stk">
-      <data key="d3">Grundlagen: Technische Mechanik</data>
-      <data key="d1">6.0</data>
-      <data key="d4">Statik</data>
+      <data key="d0">Grundlagen: Technische Mechanik</data>
+      <data key="d1">2</data>
+      <data key="d2">Statik</data>
     </node>
     <node id="elstk">
-      <data key="d3">Grundlagen: Technische Mechanik</data>
-      <data key="d1">6.0</data>
-      <data key="d4">Elastostatik</data>
+      <data key="d0">Grundlagen: Technische Mechanik</data>
+      <data key="d1">3</data>
+      <data key="d2">Elastostatik</data>
     </node>
     <node id="kmk">
-      <data key="d3">Grundlagen: Technische Mechanik</data>
-      <data key="d1">6.0</data>
-      <data key="d4">Kinematik und Kinetik</data>
+      <data key="d0">Grundlagen: Technische Mechanik</data>
+      <data key="d1">3</data>
+      <data key="d2">Kinematik und Kinetik</data>
     </node>
     <node id="pro4M">
-      <data key="d3">Projekte: Maschinenbau</data>
-      <data key="d1">nan</data>
-      <data key="d4">Projekt 4 Maschinenbau</data>
-    </node>
-    <node id="ten1">
-      <data key="d0">nan</data>
-      <data key="d1">nan</data>
-      <data key="d2">nan</data>
+      <data key="d0">Projekte: Maschinenbau</data>
+      <data key="d1">4</data>
+      <data key="d2">Projekt 4 Maschinenbau</data>
     </node>
     <node id="fems">
-      <data key="d3">Grundlagen: Labor</data>
-      <data key="d1">7.0</data>
-      <data key="d4">FEM Simulation</data>
+      <data key="d0">Grundlagen: Labor</data>
+      <data key="d1">4</data>
+      <data key="d2">FEM Simulation</data>
     </node>
     <node id="cfds">
-      <data key="d3">Grundlagen: Labor</data>
-      <data key="d1">7.0</data>
-      <data key="d4">CFD Simulation</data>
+      <data key="d0">Grundlagen: Labor</data>
+      <data key="d1">4</data>
+      <data key="d2">CFD Simulation</data>
     </node>
     <node id="pro5M">
-      <data key="d3">Projekte: Maschinenbau</data>
-      <data key="d1">nan</data>
-      <data key="d4">Projekt 5 Maschinenbau</data>
+      <data key="d0">Projekte: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Projekt 5 Maschinenbau</data>
     </node>
     <node id="pro6M">
-      <data key="d3">Projekte: Maschinenbau</data>
-      <data key="d1">nan</data>
-      <data key="d4">Projekt 6 Maschinenbau (Bachelor Thesis)</data>
+      <data key="d0">Projekte: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Projekt 6 Maschinenbau (Bachelor Thesis)</data>
     </node>
-    <edge source="bb" target="wch">
-      <data key="d5">Voraussetzung</data>
-    </edge>
+    <node id="afems">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Advanced FEM-Simulation</data>
+    </node>
+    <node id="amp">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Additive Manufacturing Polymer</data>
+    </node>
+    <node id="asimv">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Advanced Simulation and Validation</data>
+    </node>
+    <node id="c2ad">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Composite II - Advanced</data>
+    </node>
+    <node id="cich">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Climate and Equality Challenge</data>
+    </node>
+    <node id="dsf">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Drones and Smart Farming</data>
+    </node>
+    <node id="eeww">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Erneuerbare Energien: Wind und Wasser</data>
+    </node>
+    <node id="ekt">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Energie- und Kerntechnik</data>
+    </node>
+    <node id="enwi">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Energiewirtschaft</data>
+    </node>
+    <node id="fkte">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Festkörpertechnologie</data>
+    </node>
+    <node id="idacu">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Industrial Acoustics with Lab</data>
+    </node>
+    <node id="labvM">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Labview</data>
+    </node>
+    <node id="mantL">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Lab Manufacturing Technology</data>
+    </node>
+    <node id="mata">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Materialwiederverwertung, Akzeptanz</data>
+    </node>
+    <node id="matl">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">MATLAB-Workshop</data>
+    </node>
+    <node id="meas1">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Mechatronische Systeme</data>
+    </node>
+    <node id="mimo">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Mikromobilität</data>
+    </node>
+    <node id="minat">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Mikro- und Nanotechnik</data>
+    </node>
+    <node id="mlam">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Machine Learning Analyse von Messdaten</data>
+    </node>
+    <node id="naku">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Nachhaltige Kunststofftechnik</data>
+    </node>
+    <node id="npe">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Nachhaltige Produktentwicklung</data>
+    </node>
+    <node id="tamp">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Tech. Anwendung der modernen Physik</data>
+    </node>
+    <node id="veva">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Verification &amp; Validation with Lab</data>
+    </node>
+    <node id="vmo">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Verbrennungsmotoren</data>
+    </node>
+    <node id="waem">
+      <data key="d0">Fachergänzung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Workshop Adv. Experimental Methods</data>
+    </node>
+    <node id="aem">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Advanced Experimental Methods</data>
+    </node>
+    <node id="am">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Additive Manufacturing</data>
+    </node>
+    <node id="amat">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Advanced Materials</data>
+    </node>
+    <node id="apd">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Advanced Product Design</data>
+    </node>
+    <node id="c1d">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Composite I - Design &amp; Structural Me</data>
+    </node>
+    <node id="c1m">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Composite I - Manufacturing Technol</data>
+    </node>
+    <node id="dpev1">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Dig. Produktentw. &amp; Verarbeitung 1</data>
+    </node>
+    <node id="dpev2">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Dig. Produktentw. &amp; Verarbeitung 2</data>
+    </node>
+    <node id="flm3">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Fluidmechanik mit Labor 3</data>
+    </node>
+    <node id="flm4">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Fluidmechanik mit Labor 4</data>
+    </node>
+    <node id="kt1">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Kunststofftechnik 1</data>
+    </node>
+    <node id="kt2">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Kunststofftechnik 2</data>
+    </node>
+    <node id="mant1">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Manufacturing Technology 1</data>
+    </node>
+    <node id="mant2">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Manufacturing Technology 2</data>
+    </node>
+    <node id="mea">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Mechatronics with Lab</data>
+    </node>
+    <node id="thd3">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Thermodynamik mit Labor 3</data>
+    </node>
+    <node id="thd4">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">6</data>
+      <data key="d2">Thermodynamik mit Labor 4</data>
+    </node>
+    <node id="wueb">
+      <data key="d0">Fachvertiefung: Maschinenbau</data>
+      <data key="d1">5</data>
+      <data key="d2">Wärmeübertragung</data>
+    </node>
+    <node id="ch1">
+      <data key="d0">Grundlagen:
+Naturwissenschaften</data>
+      <data key="d1">1</data>
+      <data key="d2">Chemie 1</data>
+    </node>
+    <node id="elmag">
+      <data key="d0">Grundlagen:
+Naturwissenschaften</data>
+      <data key="d1">3</data>
+      <data key="d2">Elektromagnetismus</data>
+    </node>
+    <node id="mechM">
+      <data key="d0">Grundlagen:
+Naturwissenschaften</data>
+      <data key="d1">1</data>
+      <data key="d2">Grundkonzepte der Mechanik</data>
+    </node>
+    <node id="sww">
+      <data key="d0">Grundlagen:
+Naturwissenschaften</data>
+      <data key="d1">4</data>
+      <data key="d2">Schwingungen und Wellen</data>
+    </node>
+    <node id="wch">
+      <data key="d0">Grundlagen:
+Naturwissenschaften</data>
+      <data key="d1">2</data>
+      <data key="d2">Workshop Chemie</data>
+    </node>
+    <node id="wus">
+      <data key="d0">Grundlagen:
+Naturwissenschaften</data>
+      <data key="d1">2</data>
+      <data key="d2">Wärme und Strahlung</data>
+    </node>
+    <node id="atL">
+      <data key="d0">Grundlagen: Elektrische
+Energietechnik</data>
+      <data key="d1">4</data>
+      <data key="d2">Antriebstechnik mit Labor</data>
+    </node>
+    <node id="eltM">
+      <data key="d0">Grundlagen: Elektrische
+Energietechnik</data>
+      <data key="d1">3</data>
+      <data key="d2">Elektrotechnik (M)</data>
+    </node>
+    <node id="rtL">
+      <data key="d0">Grundlagen: Elektrische
+Energietechnik</data>
+      <data key="d1">5</data>
+      <data key="d2">Regelungstechnik mit Labor</data>
+    </node>
+    <node id="chkL">
+      <data key="d0">Grundlagen: Labor</data>
+      <data key="d1">2</data>
+      <data key="d2">Labor Chemie/Konstruktion</data>
+    </node>
+    <node id="mst">
+      <data key="d0">Grundlagen: Labor</data>
+      <data key="d1">4</data>
+      <data key="d2">Mess- und Sensortechnik</data>
+    </node>
+    <node id="phwkL">
+      <data key="d0">Grundlagen: Labor</data>
+      <data key="d1">3</data>
+      <data key="d2">Labor Physik &amp; Werkstoffe</data>
+    </node>
+    <node id="wkwkL">
+      <data key="d0">Grundlagen: Labor</data>
+      <data key="d1">4</data>
+      <data key="d2">Workshop Werkstoffe Konstruktion</data>
+    </node>
+    <node id="dan">
+      <data key="d0">Grundlagen: Mathematik 1</data>
+      <data key="d1">5</data>
+      <data key="d2">Datenanalyse (Machine Learning)</data>
+    </node>
+    <node id="infM">
+      <data key="d0">Grundlagen: Mathematik 1</data>
+      <data key="d1">1</data>
+      <data key="d2">Informatik (M)</data>
+    </node>
+    <node id="lalg1">
+      <data key="d0">Grundlagen: Mathematik 1</data>
+      <data key="d1">1</data>
+      <data key="d2">Lineare Algebra 1</data>
+    </node>
+    <node id="lalg2">
+      <data key="d0">Grundlagen: Mathematik 1</data>
+      <data key="d1">2</data>
+      <data key="d2">Lineare Algebra 2</data>
+    </node>
+    <node id="wst">
+      <data key="d0">Grundlagen: Mathematik 1</data>
+      <data key="d1">3;5</data>
+      <data key="d2">Wahrscheinlichkeitstheorie und Statistik</data>
+    </node>
+    <node id="an1">
+      <data key="d0">Grundlagen: Mathematik 2</data>
+      <data key="d1">1</data>
+      <data key="d2">Analysis 1</data>
+    </node>
+    <node id="an2">
+      <data key="d0">Grundlagen: Mathematik 2</data>
+      <data key="d1">2</data>
+      <data key="d2">Analysis 2</data>
+    </node>
+    <node id="dglM">
+      <data key="d0">Grundlagen: Mathematik 2</data>
+      <data key="d1">3</data>
+      <data key="d2">Differenzialgleichungen (SG M)</data>
+    </node>
+    <node id="man">
+      <data key="d0">Grundlagen: Mathematik 2</data>
+      <data key="d1">4</data>
+      <data key="d2">Mehrdimensionale Analysis</data>
+    </node>
+    <node id="num">
+      <data key="d0">Grundlagen: Mathematik 2</data>
+      <data key="d1">4</data>
+      <data key="d2">Numerik (Computational Mathematics)</data>
+    </node>
+    <node id="dms">
+      <data key="d0">Grundlagen: Technische Mechanik</data>
+      <data key="d1">4</data>
+      <data key="d2">Dimensionierung</data>
+    </node>
+    <node id="md">
+      <data key="d0">Grundlagen: Technische Mechanik</data>
+      <data key="d1">4</data>
+      <data key="d2">Maschinendynamik</data>
+    </node>
+    <node id="egts">
+      <data key="d0">Grundlagen: Thermo-/Fluid-
+Energietechnik</data>
+      <data key="d1">4</data>
+      <data key="d2">Energietechnische Systeme</data>
+    </node>
+    <node id="flmM">
+      <data key="d0">Grundlagen: Thermo-/Fluid-
+Energietechnik</data>
+      <data key="d1">3</data>
+      <data key="d2">Fluidmechanik</data>
+    </node>
+    <node id="thdM">
+      <data key="d0">Grundlagen: Thermo-/Fluid-
+Energietechnik</data>
+      <data key="d1">2</data>
+      <data key="d2">Thermodynamik</data>
+    </node>
+    <node id="hkon">
+      <data key="d0">Grundlagen: Werkstoffe,
+Fertigung, Konstruktion</data>
+      <data key="d1">1</data>
+      <data key="d2">Herstellung und Konstruktion</data>
+    </node>
+    <node id="mel">
+      <data key="d0">Grundlagen: Werkstoffe,
+Fertigung, Konstruktion</data>
+      <data key="d1">2</data>
+      <data key="d2">Maschinenelemente</data>
+    </node>
+    <node id="werk1">
+      <data key="d0">Grundlagen: Werkstoffe,
+Fertigung, Konstruktion</data>
+      <data key="d1">1</data>
+      <data key="d2">Werkstoffe 1</data>
+    </node>
+    <node id="werk2">
+      <data key="d0">Grundlagen: Werkstoffe,
+Fertigung, Konstruktion</data>
+      <data key="d1">2</data>
+      <data key="d2">Werkstoffe 2</data>
+    </node>
+    <node id="werk3">
+      <data key="d0">Grundlagen: Werkstoffe,
+Fertigung, Konstruktion</data>
+      <data key="d1">3;4</data>
+      <data key="d2">Werkstoffe 3</data>
+    </node>
     <edge source="pro1M" target="pro2M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro1M" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro1M" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro1M" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro1M" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro1M" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
     </edge>
     <edge source="pro2M" target="pro3M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro2M" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro2M" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro2M" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro2M" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="pro2M" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="pro2M" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="pro2M" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="pro2M" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
     </edge>
     <edge source="pro3M" target="pro4M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro3M" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro3M" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro3M" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="pro3M" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
     </edge>
     <edge source="stk" target="pro3M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Directed</data>
+      <data key="d4">Voraussetzung</data>
+    </edge>
+    <edge source="stk" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="stk" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="stk" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="stk" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
     </edge>
     <edge source="elstk" target="pro3M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="elstk" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="elstk" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="eltM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elstk" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
     </edge>
     <edge source="kmk" target="pro3M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="kmk" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kmk" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kmk" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="kmk" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="kmk" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="kmk" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="kmk" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="kmk" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="kmk" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
     </edge>
     <edge source="pro4M" target="pro5M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
     </edge>
-    <edge source="ten1" target="pro4M">
-      <data key="d5">Voraussetzung</data>
+    <edge source="pro4M" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro4M" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="pro4M" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
     </edge>
     <edge source="fems" target="pro4M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="fems" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="fems" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fems" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="fems" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="fems" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="fems" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="fems" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
     </edge>
     <edge source="cfds" target="pro4M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="chkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="cfds" target="fems">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="cfds" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="dms">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="cfds" target="egts">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
     </edge>
     <edge source="pro5M" target="pro6M">
-      <data key="d5">Voraussetzung</data>
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="pro5M" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="pro5M" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="pro5M" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="pro5M" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="pro5M" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="pro6M" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="pro6M" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="pro6M" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="amp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="asimv">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="c2ad">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="cich">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="dsf">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="afems" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="amat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="afems" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="asimv">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="c2ad">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="cich">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="dsf">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amp" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amp" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="c2ad">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="cich">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="dsf">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="asimv" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="asimv" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="cich">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="dsf">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c2ad" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="c2ad" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="cich" target="dsf">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="cich" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="cich" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="cich" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="cich" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="dglM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="elmag">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="elstk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="eltM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="cich" target="dan">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="cich" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dsf" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dsf" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dsf" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dsf" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="elmag">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="elstk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="eltM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dsf" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dsf" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eeww" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="eeww" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ekt" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="ekt" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="enwi" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="enwi" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="enwi" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="enwi" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="enwi" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="enwi" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="fkte" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="fkte" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="idacu" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="idacu" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="idacu" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="idacu" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="idacu" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="idacu" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="idacu" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="idacu" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="labvM" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="labvM" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="labvM" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="labvM" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="labvM" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="labvM" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="labvM" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="labvM" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="labvM" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mantL" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mantL" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mantL" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mantL" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mantL" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mata" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mata" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mata" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mata" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mata" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mata" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mata" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mata" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mata" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mata" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mata" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="matl" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="matl" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="matl" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="matl" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="matl" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="matl" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="meas1" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="meas1" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="meas1" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="meas1" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="meas1" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="meas1" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mimo" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mimo" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mimo" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mimo" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mimo" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mimo" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mimo" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mimo" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mimo" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="minat" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="minat" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="minat" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="minat" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="minat" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="minat" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="minat" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="minat" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="minat" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="minat" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="minat" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mlam" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mlam" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mlam" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mlam" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mlam" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mlam" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mlam" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mlam" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mlam" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mlam" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mlam" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mlam" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mlam" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mlam" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="naku" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="naku" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="naku" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="naku" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="naku" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="naku" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="naku" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="naku" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="naku" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="npe" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="npe" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="npe" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="npe" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="npe" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="npe" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="npe" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="npe" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="npe" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="npe" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="npe" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="npe" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="tamp" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="tamp" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="tamp" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="tamp" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="veva" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="veva" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="veva" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="vmo" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="waem" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="am">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="amat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="aem" target="apd">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="c1d">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="c1m">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="aem" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="aem" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="aem" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="aem" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="aem" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="dan">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="aem" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="amat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="am" target="apd">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="c1d">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="c1m">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="am" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="am" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="am" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="am" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="am" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="dan">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="am" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="amat" target="apd">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="c1d">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="c1m">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="amat" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="c2ad">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="asimv">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="amp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="amat" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="apd" target="c1d">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="c1m">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="apd" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="apd" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="apd" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="apd" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="apd" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="dan">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="apd" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="c1m">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1d" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1d" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1d" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1d" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1d" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="dan">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1d" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1m" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1m" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1m" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1m" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="c1m" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="dan">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="c1m" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="dpev2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev1" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev1" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev1" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev1" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev1" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev1" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dpev2" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev2" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev2" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev2" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev2" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev2" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dpev2" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="dpev2" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm3" target="flm4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm3" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm3" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm3" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm3" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm3" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="flm4" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm4" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm4" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm4" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm4" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm4" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm4" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm4" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flm4" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm4" target="idacu">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm4" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm4" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="flm4" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="kt1" target="kt2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kt1" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kt1" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kt1" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt1" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="kt2" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kt2" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="kt2" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kt2" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kt2" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="kt2" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="kt2" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="kt2" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="kt2" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="kt2" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mant1" target="mant2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mant1" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mant1" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant1" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mant2" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mant2" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mant2" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mant2" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mant2" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mant2" target="mantL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mant2" target="tamp">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mant2" target="pro6M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="mea" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mea" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="mea" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="thd3" target="thd4">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="thd3" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="thd3" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="thd3" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="thd4" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="thd4" target="vmo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 6</data>
+    </edge>
+    <edge source="ch1" target="elmag">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ch1" target="mechM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="ch1" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ch1" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ch1" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="ch1" target="lalg1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="ch1" target="infM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="ch1" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="ch1" target="hkon">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="ch1" target="pro1M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="elmag" target="mechM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="elmag" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="elmag" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="elmag" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="elmag" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="elstk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="eltM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="elmag" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="mechM" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mechM" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mechM" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mechM" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="mechM" target="pro1M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="sww" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="sww" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="sww" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="wch" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="wch" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="atL" target="eltM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="atL" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="atL" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="fems">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="cfds">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="dms">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="egts">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="atL" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="eltM" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="eltM" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="eltM" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="rtL" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="rtL" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="rtL" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="rtL" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="chkL" target="fems">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="chkL" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="chkL" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="chkL" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="chkL" target="lalg2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="chkL" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="chkL" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="chkL" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="chkL" target="mel">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="chkL" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="chkL" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="chkL" target="pro2M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="mst" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mst" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="mst" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="mst" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="mst" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="phwkL" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="phwkL" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="phwkL" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="phwkL" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dan" target="infM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dan" target="lalg1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dan" target="lalg2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dan" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dan" target="rtL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="thd3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="flm3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="dpev1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="kt1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="mant1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="mea">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="minat">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="labvM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="matl">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="ekt">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="eeww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="waem">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="fkte">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="meas1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="naku">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="veva">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="dan" target="pro5M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="infM" target="lalg1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="infM" target="lalg2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="infM" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="infM" target="mechM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="infM" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="infM" target="pro1M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="lalg1" target="lalg2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="lalg1" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="lalg1" target="mechM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="lalg1" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="lalg1" target="pro1M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="lalg2" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="lalg2" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="lalg2" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="lalg2" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="lalg2" target="mel">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="lalg2" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="lalg2" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="lalg2" target="pro2M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="wst" target="wueb">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 5</data>
+    </edge>
+    <edge source="an1" target="an2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="an1" target="dglM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="an1" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="an1" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="an1" target="lalg1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="an1" target="infM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="an1" target="mechM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="an1" target="ch1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="an1" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="an1" target="hkon">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="an1" target="pro1M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="an2" target="dglM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="an2" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="an2" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="an2" target="lalg2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="mel">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="chkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="an2" target="pro2M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="dglM" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dglM" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dglM" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="elmag">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="elstk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="eltM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="dsf">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="enwi">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="dglM" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="man" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="man" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="man" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="man" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="man" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="man" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="num" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="num" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="num" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="elstk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dms" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dms" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="dms" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="fems">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="egts">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="dms" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="md" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="md" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="md" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="md" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="md" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="md" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="flmM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="egts" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="egts" target="man">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="num">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="sww">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="mst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="fems">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="md">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="egts" target="pro4M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
+    </edge>
+    <edge source="flmM" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="flmM" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="phwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="kmk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="mlam">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="mata">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="mimo">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="npe">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="flmM" target="pro3M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="thdM" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="thdM" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="thdM" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="hkon" target="mel">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="hkon" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="hkon" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="hkon" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="hkon" target="lalg1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="hkon" target="infM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="hkon" target="mechM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="hkon" target="pro1M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 1</data>
+    </edge>
+    <edge source="mel" target="werk1">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mel" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="mel" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="mel" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="mel" target="wch">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="mel" target="stk">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="mel" target="thdM">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="mel" target="pro2M">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="werk1" target="werk2">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="werk1" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="werk2" target="werk3">
+      <data key="d3">Undirected</data>
+      <data key="d4">Gleiche Gruppe</data>
+    </edge>
+    <edge source="werk2" target="wus">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 2</data>
+    </edge>
+    <edge source="werk3" target="wst">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 3</data>
+    </edge>
+    <edge source="werk3" target="wkwkL">
+      <data key="d3">Undirected</data>
+      <data key="d4">Semester 4</data>
     </edge>
   </graph>
 </graphml>

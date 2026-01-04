@@ -4,150 +4,7014 @@
   "graph": {},
   "nodes": [
     {
-      "Gruppe": NaN,
-      "Semester": NaN,
-      "Name": NaN,
-      "id": "bb"
-    },
-    {
-      "Gruppe": "Grundlagen:\nNaturwissenschaften",
-      "Semester": 1.0,
-      "Name": "Workshop Chemie",
-      "id": "wch"
-    },
-    {
       "Gruppe": "Projekte: Maschinenbau",
-      "Semester": NaN,
+      "Semester": "1",
       "Name": "Projekt 1 Maschinenbau",
       "id": "pro1M"
     },
     {
       "Gruppe": "Projekte: Maschinenbau",
-      "Semester": NaN,
+      "Semester": "2",
       "Name": "Projekt 2 Maschinenbau",
       "id": "pro2M"
     },
     {
       "Gruppe": "Projekte: Maschinenbau",
-      "Semester": NaN,
+      "Semester": "3",
       "Name": "Projekt 3 Maschinenbau",
       "id": "pro3M"
     },
     {
       "Gruppe": "Grundlagen: Technische Mechanik",
-      "Semester": 6.0,
+      "Semester": "2",
       "Name": "Statik",
       "id": "stk"
     },
     {
       "Gruppe": "Grundlagen: Technische Mechanik",
-      "Semester": 6.0,
+      "Semester": "3",
       "Name": "Elastostatik",
       "id": "elstk"
     },
     {
       "Gruppe": "Grundlagen: Technische Mechanik",
-      "Semester": 6.0,
+      "Semester": "3",
       "Name": "Kinematik und Kinetik",
       "id": "kmk"
     },
     {
       "Gruppe": "Projekte: Maschinenbau",
-      "Semester": NaN,
+      "Semester": "4",
       "Name": "Projekt 4 Maschinenbau",
       "id": "pro4M"
     },
     {
-      "Gruppe": NaN,
-      "Semester": NaN,
-      "Name": NaN,
-      "id": "ten1"
-    },
-    {
       "Gruppe": "Grundlagen: Labor",
-      "Semester": 7.0,
+      "Semester": "4",
       "Name": "FEM Simulation",
       "id": "fems"
     },
     {
       "Gruppe": "Grundlagen: Labor",
-      "Semester": 7.0,
+      "Semester": "4",
       "Name": "CFD Simulation",
       "id": "cfds"
     },
     {
       "Gruppe": "Projekte: Maschinenbau",
-      "Semester": NaN,
+      "Semester": "5",
       "Name": "Projekt 5 Maschinenbau",
       "id": "pro5M"
     },
     {
       "Gruppe": "Projekte: Maschinenbau",
-      "Semester": NaN,
+      "Semester": "6",
       "Name": "Projekt 6 Maschinenbau (Bachelor Thesis)",
       "id": "pro6M"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Advanced FEM-Simulation",
+      "id": "afems"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Additive Manufacturing Polymer",
+      "id": "amp"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Advanced Simulation and Validation",
+      "id": "asimv"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Composite II - Advanced",
+      "id": "c2ad"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "3;5",
+      "Name": "Climate and Equality Challenge",
+      "id": "cich"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "3;5",
+      "Name": "Drones and Smart Farming",
+      "id": "dsf"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Erneuerbare Energien: Wind und Wasser",
+      "id": "eeww"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Energie- und Kerntechnik",
+      "id": "ekt"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "3;5",
+      "Name": "Energiewirtschaft",
+      "id": "enwi"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Festkörpertechnologie",
+      "id": "fkte"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Industrial Acoustics with Lab",
+      "id": "idacu"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Labview",
+      "id": "labvM"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Lab Manufacturing Technology",
+      "id": "mantL"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "3;5",
+      "Name": "Materialwiederverwertung, Akzeptanz",
+      "id": "mata"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "MATLAB-Workshop",
+      "id": "matl"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Mechatronische Systeme",
+      "id": "meas1"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "3;5",
+      "Name": "Mikromobilität",
+      "id": "mimo"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Mikro- und Nanotechnik",
+      "id": "minat"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "3;5",
+      "Name": "Machine Learning Analyse von Messdaten",
+      "id": "mlam"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Nachhaltige Kunststofftechnik",
+      "id": "naku"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "3;5",
+      "Name": "Nachhaltige Produktentwicklung",
+      "id": "npe"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Tech. Anwendung der modernen Physik",
+      "id": "tamp"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Verification & Validation with Lab",
+      "id": "veva"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Verbrennungsmotoren",
+      "id": "vmo"
+    },
+    {
+      "Gruppe": "Fachergänzung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Workshop Adv. Experimental Methods",
+      "id": "waem"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Advanced Experimental Methods",
+      "id": "aem"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Additive Manufacturing",
+      "id": "am"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Advanced Materials",
+      "id": "amat"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Advanced Product Design",
+      "id": "apd"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Composite I - Design & Structural Me",
+      "id": "c1d"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Composite I - Manufacturing Technol",
+      "id": "c1m"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Dig. Produktentw. & Verarbeitung 1",
+      "id": "dpev1"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Dig. Produktentw. & Verarbeitung 2",
+      "id": "dpev2"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Fluidmechanik mit Labor 3",
+      "id": "flm3"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Fluidmechanik mit Labor 4",
+      "id": "flm4"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Kunststofftechnik 1",
+      "id": "kt1"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Kunststofftechnik 2",
+      "id": "kt2"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Manufacturing Technology 1",
+      "id": "mant1"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Manufacturing Technology 2",
+      "id": "mant2"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Mechatronics with Lab",
+      "id": "mea"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Thermodynamik mit Labor 3",
+      "id": "thd3"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "6",
+      "Name": "Thermodynamik mit Labor 4",
+      "id": "thd4"
+    },
+    {
+      "Gruppe": "Fachvertiefung: Maschinenbau",
+      "Semester": "5",
+      "Name": "Wärmeübertragung",
+      "id": "wueb"
+    },
+    {
+      "Gruppe": "Grundlagen:\nNaturwissenschaften",
+      "Semester": "1",
+      "Name": "Chemie 1",
+      "id": "ch1"
+    },
+    {
+      "Gruppe": "Grundlagen:\nNaturwissenschaften",
+      "Semester": "3",
+      "Name": "Elektromagnetismus",
+      "id": "elmag"
+    },
+    {
+      "Gruppe": "Grundlagen:\nNaturwissenschaften",
+      "Semester": "1",
+      "Name": "Grundkonzepte der Mechanik",
+      "id": "mechM"
+    },
+    {
+      "Gruppe": "Grundlagen:\nNaturwissenschaften",
+      "Semester": "4",
+      "Name": "Schwingungen und Wellen",
+      "id": "sww"
+    },
+    {
+      "Gruppe": "Grundlagen:\nNaturwissenschaften",
+      "Semester": "2",
+      "Name": "Workshop Chemie",
+      "id": "wch"
+    },
+    {
+      "Gruppe": "Grundlagen:\nNaturwissenschaften",
+      "Semester": "2",
+      "Name": "Wärme und Strahlung",
+      "id": "wus"
+    },
+    {
+      "Gruppe": "Grundlagen: Elektrische\nEnergietechnik",
+      "Semester": "4",
+      "Name": "Antriebstechnik mit Labor",
+      "id": "atL"
+    },
+    {
+      "Gruppe": "Grundlagen: Elektrische\nEnergietechnik",
+      "Semester": "3",
+      "Name": "Elektrotechnik (M)",
+      "id": "eltM"
+    },
+    {
+      "Gruppe": "Grundlagen: Elektrische\nEnergietechnik",
+      "Semester": "5",
+      "Name": "Regelungstechnik mit Labor",
+      "id": "rtL"
+    },
+    {
+      "Gruppe": "Grundlagen: Labor",
+      "Semester": "2",
+      "Name": "Labor Chemie/Konstruktion",
+      "id": "chkL"
+    },
+    {
+      "Gruppe": "Grundlagen: Labor",
+      "Semester": "4",
+      "Name": "Mess- und Sensortechnik",
+      "id": "mst"
+    },
+    {
+      "Gruppe": "Grundlagen: Labor",
+      "Semester": "3",
+      "Name": "Labor Physik & Werkstoffe",
+      "id": "phwkL"
+    },
+    {
+      "Gruppe": "Grundlagen: Labor",
+      "Semester": "4",
+      "Name": "Workshop Werkstoffe Konstruktion",
+      "id": "wkwkL"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 1",
+      "Semester": "5",
+      "Name": "Datenanalyse (Machine Learning)",
+      "id": "dan"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 1",
+      "Semester": "1",
+      "Name": "Informatik (M)",
+      "id": "infM"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 1",
+      "Semester": "1",
+      "Name": "Lineare Algebra 1",
+      "id": "lalg1"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 1",
+      "Semester": "2",
+      "Name": "Lineare Algebra 2",
+      "id": "lalg2"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 1",
+      "Semester": "3;5",
+      "Name": "Wahrscheinlichkeitstheorie und Statistik",
+      "id": "wst"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 2",
+      "Semester": "1",
+      "Name": "Analysis 1",
+      "id": "an1"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 2",
+      "Semester": "2",
+      "Name": "Analysis 2",
+      "id": "an2"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 2",
+      "Semester": "3",
+      "Name": "Differenzialgleichungen (SG M)",
+      "id": "dglM"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 2",
+      "Semester": "4",
+      "Name": "Mehrdimensionale Analysis",
+      "id": "man"
+    },
+    {
+      "Gruppe": "Grundlagen: Mathematik 2",
+      "Semester": "4",
+      "Name": "Numerik (Computational Mathematics)",
+      "id": "num"
+    },
+    {
+      "Gruppe": "Grundlagen: Technische Mechanik",
+      "Semester": "4",
+      "Name": "Dimensionierung",
+      "id": "dms"
+    },
+    {
+      "Gruppe": "Grundlagen: Technische Mechanik",
+      "Semester": "4",
+      "Name": "Maschinendynamik",
+      "id": "md"
+    },
+    {
+      "Gruppe": "Grundlagen: Thermo-/Fluid-\nEnergietechnik",
+      "Semester": "4",
+      "Name": "Energietechnische Systeme",
+      "id": "egts"
+    },
+    {
+      "Gruppe": "Grundlagen: Thermo-/Fluid-\nEnergietechnik",
+      "Semester": "3",
+      "Name": "Fluidmechanik",
+      "id": "flmM"
+    },
+    {
+      "Gruppe": "Grundlagen: Thermo-/Fluid-\nEnergietechnik",
+      "Semester": "2",
+      "Name": "Thermodynamik",
+      "id": "thdM"
+    },
+    {
+      "Gruppe": "Grundlagen: Werkstoffe,\nFertigung, Konstruktion",
+      "Semester": "1",
+      "Name": "Herstellung und Konstruktion",
+      "id": "hkon"
+    },
+    {
+      "Gruppe": "Grundlagen: Werkstoffe,\nFertigung, Konstruktion",
+      "Semester": "2",
+      "Name": "Maschinenelemente",
+      "id": "mel"
+    },
+    {
+      "Gruppe": "Grundlagen: Werkstoffe,\nFertigung, Konstruktion",
+      "Semester": "1",
+      "Name": "Werkstoffe 1",
+      "id": "werk1"
+    },
+    {
+      "Gruppe": "Grundlagen: Werkstoffe,\nFertigung, Konstruktion",
+      "Semester": "2",
+      "Name": "Werkstoffe 2",
+      "id": "werk2"
+    },
+    {
+      "Gruppe": "Grundlagen: Werkstoffe,\nFertigung, Konstruktion",
+      "Semester": "3;4",
+      "Name": "Werkstoffe 3",
+      "id": "werk3"
     }
   ],
   "links": [
     {
-      "Label": "Voraussetzung",
-      "source": "bb",
-      "target": "wch"
-    },
-    {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
       "source": "pro1M",
       "target": "pro2M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro1M",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro1M",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro1M",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro1M",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "pro1M",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
       "source": "pro2M",
       "target": "pro3M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro2M",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro2M",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro2M",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "pro2M",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "pro2M",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "pro2M",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "pro2M",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "pro2M",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
       "source": "pro3M",
       "target": "pro4M"
     },
     {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro3M",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro3M",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "pro3M",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "pro3M",
+      "target": "werk3"
+    },
+    {
+      "Type": "Directed",
       "Label": "Voraussetzung",
       "source": "stk",
       "target": "pro3M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "stk",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "stk",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "stk",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "stk",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
       "source": "elstk",
       "target": "pro3M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "elstk",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "elstk",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "eltM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elstk",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
       "source": "kmk",
       "target": "pro3M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kmk",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kmk",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "kmk",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "kmk",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "kmk",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "kmk",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "kmk",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "kmk",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "kmk",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
       "source": "pro4M",
       "target": "pro5M"
     },
     {
-      "Label": "Voraussetzung",
-      "source": "ten1",
-      "target": "pro4M"
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "pro4M",
+      "target": "pro6M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "pro4M",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "pro4M",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
       "source": "fems",
       "target": "pro4M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "fems",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fems",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "fems",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "fems",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "fems",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "fems",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "fems",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
       "source": "cfds",
       "target": "pro4M"
     },
     {
-      "Label": "Voraussetzung",
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "cfds",
+      "target": "chkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "fems"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "cfds",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "dms"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "cfds",
+      "target": "egts"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
       "source": "pro5M",
       "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "pro5M",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "pro5M",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "pro5M",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "pro5M",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "pro5M",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "pro6M",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "pro6M",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "pro6M",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "amp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "asimv"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "c2ad"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "cich"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "dsf"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "afems",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "amat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "afems",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "asimv"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "c2ad"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "cich"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "dsf"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amp",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amp",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "c2ad"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "cich"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "dsf"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "asimv",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "asimv",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "cich"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "dsf"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c2ad",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "c2ad",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "dsf"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "cich",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "cich",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "cich",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "cich",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "dglM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "elmag"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "elstk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "eltM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "cich",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "dan"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "cich",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dsf",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dsf",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dsf",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dsf",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "elmag"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "elstk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "eltM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dsf",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dsf",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eeww",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "eeww",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ekt",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "ekt",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "enwi",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "enwi",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "enwi",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "enwi",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "enwi",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "enwi",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "fkte",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "fkte",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "idacu",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "idacu",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "idacu",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "idacu",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "idacu",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "idacu",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "idacu",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "idacu",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "labvM",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "labvM",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "labvM",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "labvM",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "labvM",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "labvM",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "labvM",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "labvM",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mantL",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mantL",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mantL",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mantL",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mantL",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mata",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mata",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mata",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mata",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mata",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mata",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mata",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mata",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mata",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mata",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "matl",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "matl",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "matl",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "matl",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "matl",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "matl",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "meas1",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "meas1",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "meas1",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "meas1",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "meas1",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "meas1",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mimo",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mimo",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mimo",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mimo",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mimo",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mimo",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mimo",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mimo",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mimo",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "minat",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "minat",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "minat",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "minat",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "minat",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "minat",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "minat",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "minat",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "minat",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "minat",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "minat",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mlam",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mlam",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mlam",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mlam",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mlam",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mlam",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mlam",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mlam",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mlam",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "mlam",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mlam",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mlam",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mlam",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mlam",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "naku",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "naku",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "naku",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "naku",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "naku",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "naku",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "naku",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "naku",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "naku",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "npe",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "npe",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "npe",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "npe",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "npe",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "npe",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "npe",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "npe",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "npe",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "npe",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "npe",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "npe",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "tamp",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "tamp",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "tamp",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "tamp",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "veva",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "veva",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "veva",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "vmo",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "waem",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "am"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "aem",
+      "target": "amat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "apd"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "c1d"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "c1m"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "aem",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "aem",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "aem",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "aem",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "aem",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "dan"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "aem",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "am",
+      "target": "amat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "apd"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "c1d"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "c1m"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "am",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "am",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "am",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "am",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "am",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "dan"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "am",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "apd"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "c1d"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "c1m"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "amat",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "c2ad"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "asimv"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "amp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "amat",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "c1d"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "c1m"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "apd",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "apd",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "apd",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "apd",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "apd",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "dan"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "apd",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "c1m"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1d",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1d",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1d",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1d",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1d",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "dan"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1d",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1m",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1m",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1m",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1m",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "c1m",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "dan"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "c1m",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev1",
+      "target": "dpev2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev1",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev1",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev1",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev1",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dpev1",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev2",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev2",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev2",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev2",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev2",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dpev2",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "dpev2",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm3",
+      "target": "flm4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm3",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm3",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm3",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "flm3",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm4",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm4",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm4",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm4",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flm4",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "idacu"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "flm4",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kt1",
+      "target": "kt2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kt1",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kt1",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "kt1",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kt2",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "kt2",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kt2",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kt2",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "kt2",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "kt2",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "kt2",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "kt2",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "kt2",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "kt2",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mant1",
+      "target": "mant2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mant1",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mant1",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mant2",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mant2",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mant2",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mant2",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mant2",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mant2",
+      "target": "mantL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mant2",
+      "target": "tamp"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "mant2",
+      "target": "pro6M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mea",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "mea",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "thd3",
+      "target": "thd4"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "thd3",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "thd3",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "thd3",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "thd4",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 6",
+      "source": "thd4",
+      "target": "vmo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ch1",
+      "target": "elmag"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "ch1",
+      "target": "mechM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ch1",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ch1",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "ch1",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "ch1",
+      "target": "lalg1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "ch1",
+      "target": "infM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "ch1",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "ch1",
+      "target": "hkon"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "ch1",
+      "target": "pro1M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "elmag",
+      "target": "mechM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "elmag",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "elmag",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "elmag",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "elstk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "eltM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "elmag",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mechM",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mechM",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mechM",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "mechM",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "mechM",
+      "target": "pro1M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "sww",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "sww",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "sww",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "wch",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "wch",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "atL",
+      "target": "eltM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "atL",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "fems"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "cfds"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "dms"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "egts"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "atL",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "eltM",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "eltM",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "rtL",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "rtL",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "rtL",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "rtL",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "chkL",
+      "target": "fems"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "chkL",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "chkL",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "chkL",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "lalg2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "mel"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "chkL",
+      "target": "pro2M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mst",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "mst",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "mst",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "mst",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "mst",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "phwkL",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "phwkL",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "phwkL",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "phwkL",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dan",
+      "target": "infM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dan",
+      "target": "lalg1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dan",
+      "target": "lalg2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dan",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "rtL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "thd3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "flm3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "dpev1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "kt1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "mant1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "mea"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "minat"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "labvM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "matl"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "ekt"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "eeww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "waem"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "fkte"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "meas1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "naku"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "veva"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "dan",
+      "target": "pro5M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "infM",
+      "target": "lalg1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "infM",
+      "target": "lalg2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "infM",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "infM",
+      "target": "mechM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "infM",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "infM",
+      "target": "pro1M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "lalg1",
+      "target": "lalg2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "lalg1",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "lalg1",
+      "target": "mechM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "lalg1",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "lalg1",
+      "target": "pro1M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "lalg2",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "lalg2",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "lalg2",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "lalg2",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "lalg2",
+      "target": "mel"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "lalg2",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "lalg2",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "lalg2",
+      "target": "pro2M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 5",
+      "source": "wst",
+      "target": "wueb"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "an1",
+      "target": "an2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "an1",
+      "target": "dglM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "an1",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "an1",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "an1",
+      "target": "lalg1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "an1",
+      "target": "infM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "an1",
+      "target": "mechM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "an1",
+      "target": "ch1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "an1",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "an1",
+      "target": "hkon"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "an1",
+      "target": "pro1M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "an2",
+      "target": "dglM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "an2",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "an2",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "lalg2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "mel"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "chkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "an2",
+      "target": "pro2M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dglM",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dglM",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "elmag"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "elstk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "eltM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "dsf"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "enwi"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "dglM",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "man",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "man",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "man",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "man",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "man",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "man",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "num",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "num",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "num",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dms",
+      "target": "elstk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dms",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "dms",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "fems"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "egts"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "dms",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "md",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "md",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "md",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "md",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "md",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "md",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "egts",
+      "target": "flmM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "egts",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "man"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "num"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "sww"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "mst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "fems"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "wkwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "md"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "egts",
+      "target": "pro4M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "flmM",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "phwkL"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "kmk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "mlam"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "mata"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "mimo"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "npe"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "flmM",
+      "target": "pro3M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "thdM",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "thdM",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "thdM",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "hkon",
+      "target": "mel"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "hkon",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "hkon",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "hkon",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "hkon",
+      "target": "lalg1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "hkon",
+      "target": "infM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "hkon",
+      "target": "mechM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 1",
+      "source": "hkon",
+      "target": "pro1M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mel",
+      "target": "werk1"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "mel",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "mel",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "mel",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "mel",
+      "target": "wch"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "mel",
+      "target": "stk"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "mel",
+      "target": "thdM"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "mel",
+      "target": "pro2M"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "werk1",
+      "target": "werk2"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "werk1",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Gleiche Gruppe",
+      "source": "werk2",
+      "target": "werk3"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 2",
+      "source": "werk2",
+      "target": "wus"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 3",
+      "source": "werk3",
+      "target": "wst"
+    },
+    {
+      "Type": "Undirected",
+      "Label": "Semester 4",
+      "source": "werk3",
+      "target": "wkwkL"
     }
   ]
 }

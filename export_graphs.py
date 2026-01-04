@@ -20,15 +20,22 @@ import pickle
 # Erstelle Graphen-Ordner falls nicht vorhanden
 os.makedirs('Graphen', exist_ok=True)
 
-# Daten laden
+# Daten laden - kombiniere alle Edge-Dateien
 print("Lade Daten...")
-edges = pd.read_csv('data/edges.csv')
+edges_pre_req = pd.read_csv('data/edges_pre_req.csv')
+edges_same_group = pd.read_csv('data/edges_same_group.csv')
+edges_same_semester = pd.read_csv('data/edges_same_semester.csv')
+
+# Kombiniere alle Edge-Dateien
+edges = pd.concat([edges_pre_req, edges_same_group, edges_same_semester], ignore_index=True)
 nodes = pd.read_csv('data/nodes.csv')
 
 # Netzwerk aufbauen
 print("Erstelle Netzwerk...")
+# Beachte: edges_pre_req sind gerichtet, edges_same_group und edges_same_semester sind ungerichtet
+# Wir erstellen einen gerichteten Graph - ungerichtete Kanten werden als bidirektional behandelt
 G = nx.from_pandas_edgelist(edges, 'Source', 'Target', 
-                           edge_attr='Label', create_using=nx.DiGraph())
+                           edge_attr=['Type', 'Label'], create_using=nx.DiGraph())
 
 # Knotenattribute hinzufügen
 nx.set_node_attributes(G, nodes.set_index('Id')['Gruppe'].to_dict(), 'Gruppe')
@@ -63,8 +70,8 @@ for u, v, data in G.edges(data=True):
     edge_list.append({
         'Source': u,
         'Target': v,
-        'Type': 'Directed',
-        'Label': data.get('Label', 'Voraussetzung')
+        'Type': data.get('Type', 'Directed'),
+        'Label': data.get('Label', '')
     })
 pd.DataFrame(edge_list).to_csv('Graphen/edges_export.csv', index=False)
 
