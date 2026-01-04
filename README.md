@@ -126,13 +126,13 @@ Die Integration vollständiger Semesterinformationen für alle Module hätte ein
 Ein systematischer Vergleich mit Curricula anderer Hochschulen hätte Stärken und Schwächen des untersuchten Studiengangs aufgezeigt. Benchmarking gegen identifizierte Best Practices in der Curriculum-Gestaltung hätte konkrete Verbesserungsvorschläge generieren können. Die Mustererkennung in erfolgreichen Curriculumstrukturen hätte allgemeine Designprinzipien offenbart.
 
 **Integration realer Studiendaten**
-Die Analyse anonymisierter Studienverläufe hätte den Abgleich zwischen geplanter und tatsächlicher Modulbelegung ermöglicht. Die empirische Identifikation praktischer Bottlenecks würde zeigen, wo die größten Herausforderungen im realen Studienbetrieb liegen. Die Analyse von Erfolgsquoten in Abhängigkeit von der Netzwerkposition einzelner Module hätte deren tatsächliche Schwierigkeit offenbart.
+Die Analyse anonymisierter Studienverläufe hätte den Abgleich zwischen geplanter und tatsächlicher Modulbelegung ermöglicht. Die empirische Identifikation praktischer Bottlenecks würde zeigen, wo die grössten Herausforderungen im realen Studienbetrieb liegen. Die Analyse von Erfolgsquoten in Abhängigkeit von der Netzwerkposition einzelner Module hätte deren tatsächliche Schwierigkeit offenbart.
 
 **Methodische Vertiefung**
 Der systematische Vergleich verschiedener Community-Detection-Algorithmen (Louvain, Infomap, Leiden, Label Propagation) hätte die Robustheit der identifizierten Modulgruppen validiert. Die Analyse hierarchischer Community-Strukturen über mehrere Ebenen würde feinere thematische Untergliederungen offenbaren. Die Detektion überlappender Communities wäre besonders für interdisziplinäre Module relevant gewesen.
 
 **Multiplex-Netzwerkanalyse**
-Die Modellierung verschiedener Beziehungstypen (Voraussetzungen, Empfehlungen, zeitliche Inkompatibilitäten) in einem multiplen Netzwerk hätte die Komplexität des Curriculums besser abgebildet. Die schichtübergreifende Analyse von Interdependenzen würde zeigen, wie verschiedene Arten von Abhängigkeiten zusammenwirken. Die Identifikation kritischer Layer im Gesamtnetzwerk könnte Prioritäten für Optimierungsmaßnahmen setzen.
+Die Modellierung verschiedener Beziehungstypen (Voraussetzungen, Empfehlungen, zeitliche Inkompatibilitäten) in einem multiplen Netzwerk hätte die Komplexität des Curriculums besser abgebildet. Die schichtübergreifende Analyse von Interdependenzen würde zeigen, wie verschiedene Arten von Abhängigkeiten zusammenwirken. Die Identifikation kritischer Layer im Gesamtnetzwerk könnte Prioritäten für Optimierungsmassnahmen setzen.
 
 
 ## Autoren
